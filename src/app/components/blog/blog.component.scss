@@ -40,7 +40,8 @@
 
 
           .holder1_2{
-              width: 15%;
+              width: 35%;
+              text-align: center;
               img{
 
                         margin-top: $pixel-100;
@@ -60,14 +61,13 @@
 
 
 .holder2{
-    margin-top: $pixel-240;
     display: flex;
 
     line-height: 1.2;
     font-size: $font-size-xs;
 
     .holder2_1{
-              width: 60%;
+              width: 65%;
               margin-left:$pixel-70;
               margin-right: $pixel-70;  
 
@@ -85,14 +85,13 @@
           
           
           .holder2_2 {
-              width: 15%;
-              
+              width: 35%;
+              text-align: center;
           
           
           
           
               img {
-              margin-top: $pixel-80;
               width: $pixel-140;
              height: $pixel-140;
 
