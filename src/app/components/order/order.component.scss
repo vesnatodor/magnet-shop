@@ -1,0 +1,75 @@
+@import'../../styles/variables';
+@import'../../styles/mixins';
+
+
+.main{    
+
+          
+          display: flex;
+          flex-direction: column;
+          font-size: $font-size-l;
+          margin-left: 15px;
+
+          .text {
+
+                    width: 25%;
+                    background-color: $color-rose2;
+                    color:$color-black;
+                    padding: $padding1420;
+                    border: none;
+                    border-radius: $border-radius-s;
+                    cursor: pointer;
+                    font-size: $font-size-l;
+
+          }
+          .submit {
+                    margin-left: $pixel-60;
+                    margin-top: $margin-10;
+                    width: 11%;
+                    background-color: $color-rose ;
+                    color:$color-black;
+                    padding: $padding1420;
+                    border: none;
+                    border-radius: $border-radius-s;
+                    cursor: pointer;
+                    font-size: $font-size-l;
+                   
+                  }
+                  
+                  .login:hover {
+                    background-color:$color-dark_rose
+                  }
+}
+
+
+
+
+@media screen and (max-width: 730px) {
+
+.main{
+margin:$margin-10;
+font-size: $font-size-10;
+
+.submit {
+  margin-left: $margin-left-20;
+  margin-top: $pixel-5;
+  width: 8%;
+  background-color: $color-rose ;
+  color:$color-black;
+  padding: $padding0810;
+  border: none;
+  border-radius: $border-radius-s;
+  cursor: pointer;
+  font-size: $font-size-7;
+ 
+}
+}
+}
+@media screen and (max-width: 530px) {
+
+  
+  }
+
+
+
+  

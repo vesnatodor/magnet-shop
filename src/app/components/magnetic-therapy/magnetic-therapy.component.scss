@@ -1,0 +1,40 @@
+@import'../../styles/variables';
+@import'../../styles/mixins';
+
+
+
+
+.holder1{
+          width: 90%;
+          display: flex;
+          flex-direction: row;
+         
+          text-align: center;
+         
+          
+
+          
+          .holder1_1{
+              width: 65%;
+              font-size: $font-size-xs;
+              justify-content: center;
+            
+                }     
+          .holder1_2 {
+            margin-top: $margin-top-80;
+            margin-left: $margin-left-35;
+            width: $pixel-25;
+            p{
+              margin-left: $margin-left-65;
+            }
+                    
+          }
+
+                
+      }
+      @media screen and (max-width: 930px) {
+        
+        .holder1_2{
+          visibility: $visibility-hidden;
+        }
+      }

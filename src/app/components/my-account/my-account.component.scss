@@ -1,0 +1,72 @@
+@import'../../styles/variables';
+@import'../../styles/mixins';
+
+
+
+
+
+      .main{
+         
+          margin: $margin-50;
+      }
+      .login {
+          width: $width-s;
+          background-color: $color-rose ;
+          color:$color-black;
+          padding:$padding1420;
+          border: none;
+          border-radius: $border-radius-s;
+          cursor: pointer;
+          
+         
+        }
+        
+        .login:hover {
+          background-color:$color-dark_rose
+        }
+      
+      #user {
+          width: $width-s;
+          padding: $padding1420;
+          display: flex;
+          border: $border-1;
+          border-radius: $border-radius-s;
+          box-sizing: border-box;   
+        }
+
+        #pass{
+          width: $width-s;
+          padding: $padding1420;
+          border: $border-1;
+          border-radius: $border-radius-s;
+        }
+        span{
+          color:$color-red;
+        }
+        .psw{
+        
+          color:$color-black;
+        }
+        .error_div{
+          width: $width-300;
+          padding: $padding1050;
+          font-weight: bold;
+          position: absolute;
+          top: $pixel-10;
+         left: calc(50% - 150px);
+          text-align: center;
+           
+        }
+
+
+        
+    @media screen and (max-width: 730px) {
+      
+    .main{
+      margin:$margin-10;
+      font-size: $font-size-10;
+    }
+    }
+
+   
+      

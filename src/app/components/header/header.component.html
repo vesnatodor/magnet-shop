@@ -1,0 +1,30 @@
+<div class="navigation">
+      
+       <button class="menu-button" (click)="toggleMenu()" >  <i class="fa-solid fa-bars"></i>    </button>
+
+       <div class="header-right" [style.display]="menuShown ? 'block' : 'none'">
+              <a routerLink="/my_account"> <i class="fa fa-user" aria-hidden="true"></i>  My account &nbsp;&nbsp; </a>
+              <a routerLink="/home_page">Home page &nbsp;&nbsp; </a>
+              <a routerLink="/blog">Blog &nbsp;&nbsp; </a>
+              <a routerLink="/magnetic_therapy">Magnetic therapy &nbsp;&nbsp;  </a>
+
+              <a routerLink="/shop">The shop</a>
+
+
+              <a routerLink="basket" class="amount" *ngIf="isLoggIn">
+                 <span class="basket"><i class="fa fa-shopping-basket" aria-hidden="true"></i></span>
+                 <span class="numbera">{{numbera}}</span>
+              </a>
+
+              <button class="logout
+              " *ngIf="isLoggIn" (click)="logout()">Logout</button>
+                   
+       </div>
+
+          
+                 
+         
+</div>
+
+
+

@@ -1,0 +1,13 @@
+
+
+
+<div class="product">
+    <a [routerLink]="'/product/'+id">
+          <img [src]="image" [alt]="title" />
+          <p class="title">{{title}}</p>
+    </a>
+
+    <p class="price">{{price | currency : 'EUR'}}</p>
+    <span  (click)= "addToCart()" > <p class="basket"><i class="fa fa-shopping-basket" aria-hidden="true"></i></p></span>
+          
+</div>

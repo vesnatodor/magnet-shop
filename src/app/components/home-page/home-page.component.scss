@@ -1,0 +1,154 @@
+@import'../../styles/variables';
+@import'../../styles/mixins';
+
+
+
+.whole{
+    
+
+
+        
+          p{
+                    margin-left:$pixel-240;
+                    font-size: $font-size-xl;
+                     }
+         
+
+    .picture{
+        display: flex;
+        flex-direction: row;
+         
+            .first{
+                        width: $width-750;
+                        height: $height-750;
+                      
+                    margin-left: $margin-left-250;
+                    margin-top: $margin-top-60;
+                   
+                    animation: move_one 50s linear 1s 4 normal backwards;
+                      
+                }
+
+                .energetix{
+                    margin-top: $margin-top-150;
+                    margin-left: $pixel-350;
+                    right:$pixel-40;
+                    width: $width-750;
+                    height: $height-750;
+
+                }
+            }
+                 
+                @keyframes move_one {
+                    0% {
+                        transform: rotate(0);
+                        width: $width-750;
+                        height: $height-750;
+                        opacity: 1;
+                    }
+                    100% {
+                        transform: rotate(30deg);
+                        width: $width-750;
+                        height: $height-750;
+                        opacity: 1;
+                    }
+                    
+          }
+}
+@media screen and (max-width:1230px){
+    
+.whole{
+
+    .picture{
+             .energetix{
+        margin-left: 100px;
+    }
+}
+}
+    
+}
+
+@media screen and (max-width:960px){
+    
+
+    div{
+        display: flex;
+        flex-direction: column;
+        position:relative;
+        right:$pixel-200;
+
+        img{
+            right:$pixel-600;
+        }
+        .energetix{
+            visibility: $visibility-hidden;
+        }
+    }
+    
+}
+
+@media screen and (max-width: 730px) {
+
+ div{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+
+
+    p{
+        margin-top: $margin-10;
+        font-size: $font-size-m;
+        
+    }   
+    .first{
+        width: $pixel-150;
+        height: $pixel-150;
+        
+       }
+    .energetix{
+        visibility: $visibility-hidden;
+       }
+    
+    
+}
+
+    
+  }
+  @media screen and (max-width: 580px) {
+
+    div{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        right: 0;
+    
+    
+        p{
+            margin-top: $margin-10;
+            font-size: $font-size-m;
+            right:$pixel-100;
+            margin-left: 0 !important;
+        }   
+        .first{
+            width: $pixel-40;
+            height: $pixel-40;
+            right:$pixel-700;
+            
+           }
+        .energetix{
+            visibility: $visibility-hidden;
+           }
+        
+        .picture img {
+            margin-left: 0 !important;
+        }
+        
+    }
+    
+        
+      }
+    
+
+ 
+    

@@ -1,0 +1,40 @@
+
+<table class="products-table">
+    <tr>
+      <th>Picture</th>
+      <th>Item</th>
+      <th>quantity</th>
+      <th>price</th>
+      <th>remove</th>
+    </tr>
+
+    <tr *ngFor="let product of productsList" class="products-table__row">
+              <!-- <th>{product.title}</th> -->
+      <td><img class="product-image" [src]="product.image" alt="Slika prozivoda" /></td>
+      <td><p>{{product.title}}</p></td>
+      <td><p>{{product.quantity}}</p></td>
+      <td><p>{{product.price}}</p></td>
+      <td><i (click)="deleteProductFromCart(product.id)" class="fa fa-trash" aria-hidden="true"></i></td>
+      
+    </tr>
+    <tr class="products-table__row">
+      <td></td>
+      <td></td>
+      <td><b>Total</b></td>
+      <td><b>{{orderAmount}}</b></td>
+    </tr>
+</table>
+
+
+
+<div class="button_whole">
+
+          <div class="button_one">
+                               <button> <a routerLink="/shop" > continue shopping  </a> </button>
+         </div>
+         <div class="button_two">
+          <button> <a routerLink="/order" >  complete the purchase     </a>   </button>
+
+        </div>
+
+</div>

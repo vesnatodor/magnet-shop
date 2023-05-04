@@ -1,0 +1,100 @@
+@import'../../styles/variables';
+@import'../../styles/mixins';
+*{
+  background-color: $color-shadow;
+}
+
+
+.navigation{
+  overflow: hidden;
+  padding: 20px 10px;
+
+
+
+   
+         a:hover {
+         
+                
+          border-bottom: 3px solid white;
+         
+    }
+}
+   
+      .amount{
+
+              
+              .numbera{
+                 margin-top: -6px;  
+                 position: absolute;   
+                  }
+
+      }
+      
+      
+    
+    
+
+    .header-right {
+      float: right;
+      display: block;
+    }
+
+    .navigation a {
+      float: left;
+      color: black;
+      text-align: center;
+      padding: 12px;
+      text-decoration: none;
+      font-size: $font-size-l; 
+      line-height: 25px;
+      border-radius: 4px;
+      text-transform: uppercase;
+    }
+
+    button{
+        margin-left: 10px;
+       font-size: $font-size-m;
+       border: none;
+        border-radius: $border-radius-s;
+        background-color: $color-rose;
+        text-transform: uppercase;
+    }
+
+    button:hover{
+        background-color: $color-dark_rose;
+    }
+
+    .menu-button {
+      display: none;
+    }
+  
+   
+
+
+    @media screen and (max-width: 730px) {
+      
+
+      .navigation a {
+        float: none;
+        display: block;
+        text-align: left;
+        padding: 5px;
+        font-size: $font-size-s;
+        text-transform: uppercase;
+      }
+      
+      .header-right {
+        float: none;
+        display: none;
+
+      
+      }
+
+      .menu-button {
+        display: block;
+        font-size: $font-size-xl;
+      }
+    }
+
+   
+      

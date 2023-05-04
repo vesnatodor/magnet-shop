@@ -1,0 +1,54 @@
+@import'../../styles/variables';
+@import'../../styles/mixins';
+
+
+
+.products {
+    padding: 4px 16px;
+    display: flex;
+    flex-direction: row;
+    
+   
+  
+
+    &--item {
+        width: 24%;
+        margin-top: 12px;
+        font-size: 10px;
+      
+    }
+}
+
+
+
+
+
+
+
+
+
+      @media screen and (max-width: 730px) {
+
+
+        .products {
+            padding: 4px 16px;
+            display: flex;
+            flex-direction: column;
+            
+           
+          
+        
+            &--item {
+                width: 30%;
+                margin-top: 12px;
+                font-size: $font-size-m;
+              
+            }
+        }
+
+
+        
+      }
+  
+     
+        

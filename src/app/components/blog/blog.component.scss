@@ -1,0 +1,196 @@
+@import'../../styles/variables';
+@import'../../styles/mixins';
+
+
+.whole{
+
+   
+    margin-left:$margin-left-20;
+    display: flex;
+    flex-direction: column;
+
+.holder1{
+
+    display: flex;
+    margin-top: $margin-top-50;
+ 
+    
+    line-height: $line-height1;
+    font-size: $font-size-xs;
+    .holder1_1{
+              width: 65%;
+              margin-left:$pixel-70;
+              margin-right: $pixel-70;  
+
+
+              h1{
+                        text-align: center;
+                        margin-bottom: $pixel-25;
+                        text-transform: uppercase;
+                    }
+              
+                    .p1{
+                        text-align: left;
+                    }
+
+
+
+
+          }
+
+
+          .holder1_2{
+              width: 15%;
+              img{
+
+                        margin-top: $pixel-100;
+                        width: $pixel-140;
+                        height: $pixel-140;
+              }
+              p{
+             
+              }
+
+        
+          }
+
+          
+    
+}
+
+
+.holder2{
+    margin-top: $pixel-240;
+    display: flex;
+
+    line-height: 1.2;
+    font-size: $font-size-xs;
+
+    .holder2_1{
+              width: 60%;
+              margin-left:$pixel-70;
+              margin-right: $pixel-70;  
+
+              h1{
+                text-transform: uppercase;
+                text-align: center;
+                margin-bottom: $pixel-25;
+
+              }
+
+              .p1{
+                        text-align: left;
+                    }
+          }
+          
+          
+          .holder2_2 {
+              width: 15%;
+              
+          
+          
+          
+          
+              img {
+              margin-top: $pixel-80;
+              width: $pixel-140;
+             height: $pixel-140;
+
+              p {
+                margin-left: $pixel-30;
+              }
+          } 
+        }   
+}
+}  
+@media screen and (max-width: 930px) {
+        
+    .holder1_2{
+      visibility: $visibility-hidden;
+    }
+    .holder2_2{
+        visibility: $visibility-hidden;
+      }
+  }
+  @media screen and (max-width: 840px) {
+
+
+
+    .whole{
+       width: 80%;
+    
+        
+    .holder1_2{
+      visibility: $visibility-hidden;
+    }
+    .holder2_2{
+        visibility: $visibility-hidden;
+      }
+  }
+}
+
+@media screen and (max-width: 530px) {
+
+
+
+    .whole{
+       width: 50%;
+
+       .holder1{
+        .holder1_1{
+
+
+           
+            margin-left:5px;
+           
+
+
+            h1{
+                      text-align: center;
+                      margin-bottom: $font-size-7;
+                      text-transform: uppercase;
+                      font-size: $font-size-8;
+                  }
+            
+                  .p1{
+                      text-align: left;
+                  }
+
+
+
+
+        }
+
+        .holder1_2{
+            visibility: $visibility-hidden;
+          }
+
+
+       }
+    
+     .holder2{
+        .holder2_1{
+            margin-left: 5px;
+
+            h1{
+                text-align: center;
+                margin-bottom: $font-size-7;
+                text-transform: uppercase;
+                font-size: $font-size-8;
+            }
+      
+            .p1{
+                text-align: left;
+            }
+
+        }
+
+        .holder2_2{
+            visibility: $visibility-hidden;
+          }
+
+     }   
+    
+    
+  }
+}

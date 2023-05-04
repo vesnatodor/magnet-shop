@@ -1,0 +1,38 @@
+[
+
+          {
+                    "id" :1 ,
+                    "image": "/assets/images/image1.jpg",
+                    "title": "Heart",
+                    "price": 40,
+                    "basket": "fafa"
+                    
+          },
+          {
+                    "id" :2 ,
+                    "image": "/assets/images/image2.jpg",
+                    "title": "Magnetic wand",
+                    "price": 45,
+                    "basket":"fafa"
+                   
+          },
+          {
+                    "id" :3 ,
+                    "image": "/assets/images/image3.jpg",
+                    "title": "Copper bracelet",
+                    "price": 50,
+                    "basket":"fafa"
+
+                    
+          },
+          {
+
+                    "id" :4 ,
+                    "image": "/assets/images/image4.jpg",
+                    "title": "Bracelet",
+                    "price": 60,
+                    "basket":"fafa"
+                    
+          
+          }
+]

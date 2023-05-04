@@ -1,0 +1,50 @@
+@import'../../styles/variables';
+@import'../../styles/mixins';
+
+:host {
+   background-color: red !important;
+}
+
+.button_whole{
+          margin-bottom: $pixel-40;
+          display: flex;
+          flex-direction: column;
+          .button_one{
+                    margin-bottom: $pixel-100;
+          }
+          .button_two{
+                    margin-left: $margin-left-400;
+          }
+}
+table tr th{
+          text-transform: uppercase;
+}
+
+
+button{
+          font-size: $font-size-m;
+          background-color: $color-rose;
+          text-transform: $text-transorm-uppercase;
+          border: 0px;
+}
+
+.products-table {
+          width: 100%;
+}
+
+.products-table td {
+          display: table-cell;
+          text-align: center;
+
+}
+
+.product-image {
+          width: 100px;
+          height: 100px;
+}
+.down{
+          text-transform: uppercase;
+          
+
+          margin-left:922px;
+}

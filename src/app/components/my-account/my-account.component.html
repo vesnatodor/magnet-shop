@@ -1,0 +1,22 @@
+
+      
+         
+      <div class="main">
+            
+          
+                
+        
+        <p><i class="fa fa-sign-in" aria-hidden="true"></i>&nbsp; Log into</p>
+                <label for="uname"><b>username<span>*</span> </b></label><br>
+                <input id="user" type="text" placeholder="vesnatodor" name="uname" required [(ngModel)]="username" ><br><br>
+            
+                <label class="pas" for="psw"><b>password <span>*</span> &nbsp;</b></label><br>
+                <input id="pass"  type="password" placeholder="vesnatodor" name="psw" required minlength="9" 
+                [(ngModel)]="password" ><br><br>
+               
+                <button class="login"  (click)="login()">Log in</button><br>
+                
+              
+          </div>
+      
+      
