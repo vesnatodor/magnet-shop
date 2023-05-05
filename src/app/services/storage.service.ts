@@ -33,7 +33,7 @@ export class StorageService {
       }
     
       else
-      console.log('error');
+      alert('Wrong username or password!');
        
       });
       
