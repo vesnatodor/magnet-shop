@@ -19,5 +19,6 @@ export class OrderComponent {
     this.city = '';
     this.address = '';
     this.phoneNumber = '';
+    alert("Sent successfully!");
   }
 }
