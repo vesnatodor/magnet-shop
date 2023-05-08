@@ -1,6 +1,6 @@
 # Magnet shop
 
-This project created to shows shop magnetic jewelry.
+The simulation of web store that sells magnetic jewelry is overwritten in this project. If you want test it, you can use username:"vesnatodor", password:"vesnatodor".
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
 
 <img width="953" alt="home_page" src="https://user-images.githubusercontent.com/118536586/236218057-d288df61-6ba5-4b86-947f-55dcd28cfed6.png">
@@ -10,7 +10,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Development server
 
 
-![ALT](/github_images/blog.png)
+![Blog](/github_images/blog.png)
+![Magnetic](/github_images/magnetic.png)
+![Magnetic](/github_images/shop.png)
+![Magnetic](/github_images/shopping.png)
+![Magnetic](/github_images/orede.png)
 
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
