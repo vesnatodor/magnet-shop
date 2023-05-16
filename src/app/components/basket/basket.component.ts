@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { BasketService } from '../../services/basket.service';
 import { IProduct } from '../../models/product.inteface';
-import { OrderService } from 'src/app/services/order.service';
 
 @Component({
   selector: 'app-basket',
@@ -13,14 +12,12 @@ export class BasketComponent implements OnInit {
   productsList: IProduct[] = [];
   add_amount: any;
 
-  constructor(private basketService: BasketService,
-              private orderService: OrderService) {
+  constructor(private basketService: BasketService) {
 
   }
 
   ngOnInit(): void {
     this.productsList = this.basketService.getProductsList();
-    this.add_amount =this.orderService.add_amount();
     this.calculateTotalAmount();
   }
 

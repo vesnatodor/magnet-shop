@@ -23,10 +23,9 @@ export class SingleProductComponent {
         private basketService: BasketService) {}
 
   ngOnInit():void{
-     console.log(this._route.snapshot.params['id']);
     this._productsService.getProducts().subscribe((data: IProduct[])=> { 
      this.product = data.find((el)=> el.id === +this._route.snapshot.params['id']);
-     console.log(this.product);
+   
     });
 
   }
