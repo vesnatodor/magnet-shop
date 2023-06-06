@@ -6,6 +6,14 @@
           margin-bottom: $pixel-40;
           display: flex;
           flex-direction: column;
+          .button_one{
+            margin-left: 20px;
+          }
+          .button_two{
+            margin-left: 20px;
+            margin-top: 20px;
+          }
+          
           
          
 }
