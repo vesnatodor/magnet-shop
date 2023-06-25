@@ -8,6 +8,9 @@
       .main{
          
           margin: $margin-50;
+          p{
+            font-size: $font-size-xl;
+          }
       }
       .login {
           width: $width-s;
