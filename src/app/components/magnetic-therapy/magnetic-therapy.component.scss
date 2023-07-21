@@ -11,6 +11,7 @@
          
           text-align: center;
          
+         
           
 
           
@@ -18,11 +19,14 @@
               width: 65%;
               font-size: $font-size-xs;
               justify-content: center;
+              margin-left: $margin-left-10;
+
             
                 }     
           .holder1_2 {
             margin-top: $margin-top-80;
             margin-left: $margin-left-35;
+           
             width: $pixel-25;
             p{
               margin-left: $margin-left-65;

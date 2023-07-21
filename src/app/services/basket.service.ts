@@ -30,6 +30,7 @@ export class BasketService {
     this.storageService.saveBasket(this.productsList);
    }
 
+   
    removeProduct(productId: number) {
     this.productsList = this.productsList.filter(p => p.id !== productId);
     this.productsListSubject.next(this.productsList);
@@ -40,6 +41,7 @@ export class BasketService {
     return this.productsListSubject;
    }
 
+   
    getProductsList() {
     return this.productsList;
    }

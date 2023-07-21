@@ -32,5 +32,6 @@ export class BasketComponent implements OnInit {
 
     this.productsList.forEach(p => this.orderAmount += p.quantity * p.price);
   }
+
   
 }

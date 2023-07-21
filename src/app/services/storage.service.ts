@@ -43,6 +43,7 @@ export class StorageService {
       localStorage.clear();
       this.loggedUser.next({pass: '', user: ''});
     }
+    
 
     getUserLoggedIn() {
       return this.loggedUser;

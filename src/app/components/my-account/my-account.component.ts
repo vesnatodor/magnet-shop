@@ -17,7 +17,8 @@ export class MyAccountComponent {
 
   }
 
-  username='';
+  username= '';
+
   password='';
 
   login() {

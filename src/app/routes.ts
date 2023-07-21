@@ -47,7 +47,7 @@ export const route:Routes= [
            {
                     path: 'basket',
                     component: BasketComponent,
-                                              
+                                                 
                             
            },
 
