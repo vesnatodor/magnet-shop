@@ -44,6 +44,7 @@ export class BasketService {
    
    getProductsList() {
     return this.productsList;
+    
    }
 
    clearProductsList() {

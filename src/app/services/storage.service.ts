@@ -12,7 +12,7 @@ import { IProduct } from '../models/product.inteface';
 })
 export class StorageService {
 
-  loggedUser: BehaviorSubject<IUser> = new BehaviorSubject<IUser>({pass: '', user: ''}); 
+  loggedUser: BehaviorSubject<IUser> = new BehaviorSubject<IUser>({ user: '',pass: '',}); 
   
   constructor(private apiService: ApiService ) { 
     const username = localStorage.getItem('username');
@@ -36,6 +36,7 @@ export class StorageService {
       alert('Wrong username or password!');
        
       });
+      
       
     };
 
